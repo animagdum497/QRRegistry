@@ -1,0 +1,7 @@
+{
+  "name": "QRRegistry",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Scan QR </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<div class="camera-container">
+  <div class="camera-box">
+    <h2>Camera 1</h2>
+    <div id="camera1" class="camera"></div>
+  </div>
+  <div class="camera-box">
+    <h2>Camera 2</h2>
+    <div id="camera2" class="camera"></div>
+  </div>
+</div>
+
+<!-- Download Report Button -->
+<br /><br />
+<div class="btn-box">
+  <ion-button (click)="downloadReport()"> Download Report </ion-button>
+</div>

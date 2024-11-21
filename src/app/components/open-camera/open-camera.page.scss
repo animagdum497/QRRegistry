@@ -1,0 +1,37 @@
+.camera-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem; /* Add enough space below the camera container to prevent overlap */
+  flex-wrap: wrap; /* Allow items to wrap if the container gets too narrow */
+}
+
+.camera-box {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1rem; /* Ensure there's space below each camera box */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#html5-qrcode-anchor-scan-type-change {
+  display: none !important;
+}
+
+.camera {
+  width: 100%;
+  min-height: 350px; /* Minimum height to fit the camera feed and the button */
+  border: 1px solid black;
+  display: flex;
+  align-items: center; /* Center any content vertically (like the button) */
+  justify-content: center; /* Center content horizontally */
+  margin-bottom: 10px; /* Add some space below the camera */
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
